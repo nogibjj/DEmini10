@@ -9,7 +9,7 @@ format:
 	black *.py 
 
 lint:
-	pylint	--disable=C,E,W,R,F	*.py mylib/*.py **/*.py
+	
     # pylint --disable=W0621,W1510,W1514,W0612 *.py mylib/*.py src/**/*.py
 	ruff check --ignore E,F	*.py mylib/*.py test_*.py 
     # pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py

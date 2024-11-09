@@ -5,12 +5,12 @@ Library functions for data extraction, loading, querying, and transformation.
 import os
 import requests
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, when, year, month, dayofmonth
+from pyspark.sql.functions import col, when
 from pyspark.sql.types import (
     StructType,
     StructField,
     IntegerType,
-    StringType
+    # StringType
 )
 
 LOG_FILE = "pyspark_output.md"

@@ -20,13 +20,7 @@ The project involves utilizing PySpark for data processing on a substantial data
 
 
 ### Process
-1. I first extract the dataset via `extract` 
-2. I then start a spark session via `start_spark`
-3. I then load the dataset via `load_data`
-4. I then find some descriptive statistics via `descibe`
-5. I then query the dataset via `query`
-6. I then do some more transformation on the sample dataset via `example_transform`
-7. I finally end my spark session via `end_spark`
+Extract the dataset via `extract` , then start a spark session via `start_spark` , load the dataset via `load_data` . Next we can query the dataset via `query`,do some more transformation on the sample dataset via `example_transform`, and finally end my spark session via `end_spark`. 
 
 ## References
 1. https://github.com/nogibjj/python-ruff-template

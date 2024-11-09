@@ -1,37 +1,37 @@
-[![CI](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/python-ruff-template/actions/workflows/cicd.yml)
-## Template for Python projects with RUFF linter
-
-![1 15_rust_built_python_tools](https://github.com/nogibjj/python-ruff-template/assets/58792/db5f7bda-a977-4c67-acbe-a70fe034fbdf)
 
 
+## DEmini10: PySpark Data Processing
+The project involves utilizing PySpark for data processing on a substantial dataset. The main objectives are to incorporate a Spark SQL query and execute a data transformation. I use fivethirtyeight's dataset on showhost guests to peform these operatons. 
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+### Prep and Run:
+1. open codespaces
+2. wait for environment to be installed
+3. run: `python main.py`
+4. [Pyspark Output Data/Summary Markdown File](pyspark_output.md)
+5. Spark Jobs: https://curly-waddle-jj4q54v6j5r6cj6jx-4040.app.github.dev/jobs/ 
+![Breif](image.png)
+![Glimpse](image-1.png)
+![Glimpse](image-2.png)
 
-Things included are:
 
-* `Makefile`
+### Format code
+1. Format code: `make format`
+2. Lint code: `make lint`
+3. Test code: `make test`
 
-* `Pytest`
 
-* `pandas`
-
-* `Ruff`:  
-
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
-
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
+### Process
+1. I first extract the dataset via `extract` 
+2. I then start a spark session via `start_spark`
+3. I then load the dataset via `load_data`
+4. I then find some descriptive statistics via `descibe`
+5. I then query the dataset via `query`
+6. I then do some more transformation on the sample dataset via `example_transform`
+7. I finally end my spark session via `end_spark`
 
 ## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
+1. https://github.com/nogibjj/python-ruff-template
+2. https://raw.githubusercontent.com/fivethirtyeight/data/master/births/US_births_2000-2014_SSA.csv
 
 
 

@@ -1,4 +1,4 @@
-
+[![CI](https://github.com/nogibjj/DEmini10/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/DEmini10/actions/workflows/cicd.yml)
 
 ## DEmini10: PySpark Data Processing
 The project involves utilizing PySpark for data processing on a substantial dataset. The main objectives are to incorporate a Spark SQL query and execute a data transformation. I use fivethirtyeight's dataset on showhost guests to peform these operatons. 
@@ -10,7 +10,6 @@ The project involves utilizing PySpark for data processing on a substantial data
 4. [Pyspark Output Data/Summary Markdown File](pyspark_output.md)
 5. Spark Jobs: https://curly-waddle-jj4q54v6j5r6cj6jx-4040.app.github.dev/jobs/ 
 ![Breif](image.png)
-![Glimpse](image-1.png)
 ![Glimpse](image-2.png)
 
 
